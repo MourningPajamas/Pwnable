@@ -20,4 +20,4 @@ I will honor the rules shown on their site. Primarily, rule 3 that states:
 
 That way you can try some of the harder ones out for yourself if you're interested.
 
-You can find the solutions for the Toddler's Bottle category [here](/Toddlers_Bottle/README.md)
+You can find the solutions for the Toddler's Bottle category [here](/Toddlers_Bottle/)
