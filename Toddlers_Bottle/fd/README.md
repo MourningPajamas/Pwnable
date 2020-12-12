@@ -14,6 +14,6 @@ We don't have permission to open the flag file but we can look at the C file.
 
 ![C File](/Toddlers_Bottle/fd/Images/fd_c_file.png)
 
-The first if statement just checks that we provide an argument to the program. Next we call the atoi function which converts a string to an integer and subtract 0x1234 from it. We then call the read function which will attempt to read up to 32 bytes from file descriptor fd into the buffer starting at buf.
+The first if statement just checks that we provide an argument to the program. Next we call the atoi function which converts a string to an integer and subtract 0x1234 from it. We then call the read function which will attempt to read up to 32 bytes from file descriptor fd into the buffer starting at buf. On success, the number of bytes read is returned (zero indicates end of file), and the file position is advanced by this number.
 
 Lastly we call the strcmp function which compares the two strings "LETMEWIN\n" and buf. It returns an integer less than, equal to, or greater than zero if "LETMEWIN\n" is found, respectively, to be less than, to match, or to be greater than buf.
