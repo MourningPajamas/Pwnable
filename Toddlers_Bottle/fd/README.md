@@ -2,6 +2,8 @@
 
 This challenge focuses on the use of [file descriptors](https://en.wikipedia.org/wiki/File_descriptor).
 
+### First Look and Thoughts
+
 We are given the following description/clues.
 
 ![Description](/Toddlers_Bottle/fd/Images/fd_description.png)
